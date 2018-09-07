@@ -1,17 +1,17 @@
-#NLP with Deep Learning: Tagging with bi-LSTM based models
+# NLP with Deep Learning: Tagging with bi-LSTM based models
 This project is an adaptation of Guillaume's [model](https://github.com/guillaumegenthial/sequence_tagging) for NER.
 I adapted the model to have more configurable options and to solve
 more tasks. The additional configurations were added to investigate how they
 impact performance of the model. 
 Documentation, which includes theoretical description of the model and comparison of the different model configurations , can be found [here](https://docs.google.com/document/d/1jxlbAKcsZcQvHh4u2prLgnfnNJMH4AJwVxf-i5xwtoM/edit?usp=sharing).
 
-###Contribution:
+### Contribution:
 1. Added multitasking: This version solves POS ,CHUNKING and NER model
 2. Added word2vec: choose between google's word2vec pre-trained word embedding or Stanford's of gloVe word embedding. 
 One can compare the resulting accuracy
 3. Added CNN-char embedding: (a terrible bug persists that needs fixing) 
 
-###How to Run:
+### How to Run:
 1. In the terminal run
 $ `make wembedding` 
 to download the standford glove file and 
